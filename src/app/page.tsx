@@ -1,9 +1,7 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Login from "./login.tsx"
+import Login from "./login.tsx";
 
 export default function Home() {
-  return (
-    <Login />
-  )
+  return <Login />;
 }
